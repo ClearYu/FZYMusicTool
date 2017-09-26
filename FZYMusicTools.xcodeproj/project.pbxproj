@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1D4B9F1F78FF92003D9E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4B9E1F78FF92003D9E50 /* AppDelegate.m */; };
+		CA1D4BA21F78FF92003D9E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BA11F78FF92003D9E50 /* ViewController.m */; };
+		CA1D4BA51F78FF92003D9E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1D4BA31F78FF92003D9E50 /* Main.storyboard */; };
+		CA1D4BA71F78FF92003D9E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1D4BA61F78FF92003D9E50 /* Assets.xcassets */; };
+		CA1D4BAA1F78FF92003D9E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1D4BA81F78FF92003D9E50 /* LaunchScreen.storyboard */; };
+		CA1D4BAD1F78FF92003D9E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BAC1F78FF92003D9E50 /* main.m */; };
+		CA1D4BB71F78FF92003D9E50 /* FZYMusicToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BB61F78FF92003D9E50 /* FZYMusicToolsTests.m */; };
+		CA1D4BC21F78FF92003D9E50 /* FZYMusicToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BC11F78FF92003D9E50 /* FZYMusicToolsUITests.m */; };
+		CA1D4BD11F79EB32003D9E50 /* FZYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BD01F79EB32003D9E50 /* FZYMusicModel.m */; };
+		CA1D4BDB1F79EDD1003D9E50 /* FZYMusicPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BDA1F79EDD1003D9E50 /* FZYMusicPlayManager.m */; };
+		CA1D4BDE1F79EE48003D9E50 /* FZYMusicExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D4BDD1F79EE48003D9E50 /* FZYMusicExportManager.m */; };
+		CAEA46DE1F7A53FD00EED3D5 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA46D71F7A2FA800EED3D5 /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1D4BB31F78FF92003D9E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D4B921F78FF92003D9E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1D4B991F78FF92003D9E50;
+			remoteInfo = FZYMusicTools;
+		};
+		CA1D4BBE1F78FF92003D9E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D4B921F78FF92003D9E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1D4B991F78FF92003D9E50;
+			remoteInfo = FZYMusicTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1D4B9A1F78FF92003D9E50 /* FZYMusicTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZYMusicTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D4B9D1F78FF92003D9E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1D4B9E1F78FF92003D9E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1D4BA01F78FF92003D9E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1D4BA11F78FF92003D9E50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA1D4BA41F78FF92003D9E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1D4BA61F78FF92003D9E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1D4BA91F78FF92003D9E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1D4BAB1F78FF92003D9E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1D4BAC1F78FF92003D9E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1D4BB21F78FF92003D9E50 /* FZYMusicToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZYMusicToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D4BB61F78FF92003D9E50 /* FZYMusicToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYMusicToolsTests.m; sourceTree = "<group>"; };
+		CA1D4BB81F78FF92003D9E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1D4BBD1F78FF92003D9E50 /* FZYMusicToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZYMusicToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D4BC11F78FF92003D9E50 /* FZYMusicToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYMusicToolsUITests.m; sourceTree = "<group>"; };
+		CA1D4BC31F78FF92003D9E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1D4BCF1F79EB32003D9E50 /* FZYMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZYMusicModel.h; sourceTree = "<group>"; };
+		CA1D4BD01F79EB32003D9E50 /* FZYMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYMusicModel.m; sourceTree = "<group>"; };
+		CA1D4BD91F79EDD1003D9E50 /* FZYMusicPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZYMusicPlayManager.h; sourceTree = "<group>"; };
+		CA1D4BDA1F79EDD1003D9E50 /* FZYMusicPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYMusicPlayManager.m; sourceTree = "<group>"; };
+		CA1D4BDC1F79EE48003D9E50 /* FZYMusicExportManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZYMusicExportManager.h; sourceTree = "<group>"; };
+		CA1D4BDD1F79EE48003D9E50 /* FZYMusicExportManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZYMusicExportManager.m; sourceTree = "<group>"; };
+		CA1D4BE01F79EF27003D9E50 /* FZYMusicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZYMusicHeader.h; sourceTree = "<group>"; };
+		CAEA46D71F7A2FA800EED3D5 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		CAEA46D81F7A2FA800EED3D5 /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1D4B971F78FF92003D9E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEA46DE1F7A53FD00EED3D5 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BAF1F78FF92003D9E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BBA1F78FF92003D9E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1D4B911F78FF92003D9E50 = {
+			isa = PBXGroup;
+			children = (
+				CA1D4B9C1F78FF92003D9E50 /* FZYMusicTools */,
+				CA1D4BB51F78FF92003D9E50 /* FZYMusicToolsTests */,
+				CA1D4BC01F78FF92003D9E50 /* FZYMusicToolsUITests */,
+				CA1D4B9B1F78FF92003D9E50 /* Products */,
+				CAEA46DD1F7A53FD00EED3D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1D4B9B1F78FF92003D9E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4B9A1F78FF92003D9E50 /* FZYMusicTools.app */,
+				CA1D4BB21F78FF92003D9E50 /* FZYMusicToolsTests.xctest */,
+				CA1D4BBD1F78FF92003D9E50 /* FZYMusicToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1D4B9C1F78FF92003D9E50 /* FZYMusicTools */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4B9D1F78FF92003D9E50 /* AppDelegate.h */,
+				CA1D4B9E1F78FF92003D9E50 /* AppDelegate.m */,
+				CAEA46D61F7A2F6900EED3D5 /* lame */,
+				CA1D4BD61F79EB9C003D9E50 /* C */,
+				CA1D4BD51F79EB84003D9E50 /* V */,
+				CA1D4BD41F79EB67003D9E50 /* M */,
+				CA1D4BD71F79ED56003D9E50 /* T */,
+				CA1D4BDF1F79EE5B003D9E50 /* H */,
+				CA1D4BA31F78FF92003D9E50 /* Main.storyboard */,
+				CA1D4BA61F78FF92003D9E50 /* Assets.xcassets */,
+				CA1D4BA81F78FF92003D9E50 /* LaunchScreen.storyboard */,
+				CA1D4BAB1F78FF92003D9E50 /* Info.plist */,
+				CA1D4BAC1F78FF92003D9E50 /* main.m */,
+			);
+			path = FZYMusicTools;
+			sourceTree = "<group>";
+		};
+		CA1D4BB51F78FF92003D9E50 /* FZYMusicToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BB61F78FF92003D9E50 /* FZYMusicToolsTests.m */,
+				CA1D4BB81F78FF92003D9E50 /* Info.plist */,
+			);
+			path = FZYMusicToolsTests;
+			sourceTree = "<group>";
+		};
+		CA1D4BC01F78FF92003D9E50 /* FZYMusicToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BC11F78FF92003D9E50 /* FZYMusicToolsUITests.m */,
+				CA1D4BC31F78FF92003D9E50 /* Info.plist */,
+			);
+			path = FZYMusicToolsUITests;
+			sourceTree = "<group>";
+		};
+		CA1D4BD41F79EB67003D9E50 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BCF1F79EB32003D9E50 /* FZYMusicModel.h */,
+				CA1D4BD01F79EB32003D9E50 /* FZYMusicModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CA1D4BD51F79EB84003D9E50 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CA1D4BD61F79EB9C003D9E50 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BA01F78FF92003D9E50 /* ViewController.h */,
+				CA1D4BA11F78FF92003D9E50 /* ViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CA1D4BD71F79ED56003D9E50 /* T */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BD91F79EDD1003D9E50 /* FZYMusicPlayManager.h */,
+				CA1D4BDA1F79EDD1003D9E50 /* FZYMusicPlayManager.m */,
+				CA1D4BDC1F79EE48003D9E50 /* FZYMusicExportManager.h */,
+				CA1D4BDD1F79EE48003D9E50 /* FZYMusicExportManager.m */,
+			);
+			path = T;
+			sourceTree = "<group>";
+		};
+		CA1D4BDF1F79EE5B003D9E50 /* H */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D4BE01F79EF27003D9E50 /* FZYMusicHeader.h */,
+			);
+			path = H;
+			sourceTree = "<group>";
+		};
+		CAEA46D61F7A2F6900EED3D5 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA46D81F7A2FA800EED3D5 /* lame.h */,
+				CAEA46D71F7A2FA800EED3D5 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		CAEA46DD1F7A53FD00EED3D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1D4B991F78FF92003D9E50 /* FZYMusicTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D4BC61F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicTools" */;
+			buildPhases = (
+				CA1D4B961F78FF92003D9E50 /* Sources */,
+				CA1D4B971F78FF92003D9E50 /* Frameworks */,
+				CA1D4B981F78FF92003D9E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZYMusicTools;
+			productName = FZYMusicTools;
+			productReference = CA1D4B9A1F78FF92003D9E50 /* FZYMusicTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1D4BB11F78FF92003D9E50 /* FZYMusicToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D4BC91F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicToolsTests" */;
+			buildPhases = (
+				CA1D4BAE1F78FF92003D9E50 /* Sources */,
+				CA1D4BAF1F78FF92003D9E50 /* Frameworks */,
+				CA1D4BB01F78FF92003D9E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1D4BB41F78FF92003D9E50 /* PBXTargetDependency */,
+			);
+			name = FZYMusicToolsTests;
+			productName = FZYMusicToolsTests;
+			productReference = CA1D4BB21F78FF92003D9E50 /* FZYMusicToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1D4BBC1F78FF92003D9E50 /* FZYMusicToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1D4BCC1F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicToolsUITests" */;
+			buildPhases = (
+				CA1D4BB91F78FF92003D9E50 /* Sources */,
+				CA1D4BBA1F78FF92003D9E50 /* Frameworks */,
+				CA1D4BBB1F78FF92003D9E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1D4BBF1F78FF92003D9E50 /* PBXTargetDependency */,
+			);
+			name = FZYMusicToolsUITests;
+			productName = FZYMusicToolsUITests;
+			productReference = CA1D4BBD1F78FF92003D9E50 /* FZYMusicToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1D4B921F78FF92003D9E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZY;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Tool;
+				TargetAttributes = {
+					CA1D4B991F78FF92003D9E50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CA1D4BB11F78FF92003D9E50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA1D4B991F78FF92003D9E50;
+					};
+					CA1D4BBC1F78FF92003D9E50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA1D4B991F78FF92003D9E50;
+					};
+				};
+			};
+			buildConfigurationList = CA1D4B951F78FF92003D9E50 /* Build configuration list for PBXProject "FZYMusicTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1D4B911F78FF92003D9E50;
+			productRefGroup = CA1D4B9B1F78FF92003D9E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1D4B991F78FF92003D9E50 /* FZYMusicTools */,
+				CA1D4BB11F78FF92003D9E50 /* FZYMusicToolsTests */,
+				CA1D4BBC1F78FF92003D9E50 /* FZYMusicToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1D4B981F78FF92003D9E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D4BAA1F78FF92003D9E50 /* LaunchScreen.storyboard in Resources */,
+				CA1D4BA71F78FF92003D9E50 /* Assets.xcassets in Resources */,
+				CA1D4BA51F78FF92003D9E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BB01F78FF92003D9E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BBB1F78FF92003D9E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1D4B961F78FF92003D9E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D4BA21F78FF92003D9E50 /* ViewController.m in Sources */,
+				CA1D4BD11F79EB32003D9E50 /* FZYMusicModel.m in Sources */,
+				CA1D4BAD1F78FF92003D9E50 /* main.m in Sources */,
+				CA1D4B9F1F78FF92003D9E50 /* AppDelegate.m in Sources */,
+				CA1D4BDB1F79EDD1003D9E50 /* FZYMusicPlayManager.m in Sources */,
+				CA1D4BDE1F79EE48003D9E50 /* FZYMusicExportManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BAE1F78FF92003D9E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D4BB71F78FF92003D9E50 /* FZYMusicToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1D4BB91F78FF92003D9E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D4BC21F78FF92003D9E50 /* FZYMusicToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1D4BB41F78FF92003D9E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1D4B991F78FF92003D9E50 /* FZYMusicTools */;
+			targetProxy = CA1D4BB31F78FF92003D9E50 /* PBXContainerItemProxy */;
+		};
+		CA1D4BBF1F78FF92003D9E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1D4B991F78FF92003D9E50 /* FZYMusicTools */;
+			targetProxy = CA1D4BBE1F78FF92003D9E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1D4BA31F78FF92003D9E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1D4BA41F78FF92003D9E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1D4BA81F78FF92003D9E50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1D4BA91F78FF92003D9E50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1D4BC41F78FF92003D9E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA1D4BC51F78FF92003D9E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1D4BC71F78FF92003D9E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FZYMusicTools/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1D4BC81F78FF92003D9E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FZYMusicTools/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1D4BCA1F78FF92003D9E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZYMusicTools.app/FZYMusicTools";
+			};
+			name = Debug;
+		};
+		CA1D4BCB1F78FF92003D9E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZYMusicTools.app/FZYMusicTools";
+			};
+			name = Release;
+		};
+		CA1D4BCD1F78FF92003D9E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZYMusicTools;
+			};
+			name = Debug;
+		};
+		CA1D4BCE1F78FF92003D9E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ER2ADM38;
+				INFOPLIST_FILE = FZYMusicToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengzhenyu.FZYMusicToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZYMusicTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1D4B951F78FF92003D9E50 /* Build configuration list for PBXProject "FZYMusicTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D4BC41F78FF92003D9E50 /* Debug */,
+				CA1D4BC51F78FF92003D9E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D4BC61F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D4BC71F78FF92003D9E50 /* Debug */,
+				CA1D4BC81F78FF92003D9E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D4BC91F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D4BCA1F78FF92003D9E50 /* Debug */,
+				CA1D4BCB1F78FF92003D9E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1D4BCC1F78FF92003D9E50 /* Build configuration list for PBXNativeTarget "FZYMusicToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1D4BCD1F78FF92003D9E50 /* Debug */,
+				CA1D4BCE1F78FF92003D9E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1D4B921F78FF92003D9E50 /* Project object */;
+}
